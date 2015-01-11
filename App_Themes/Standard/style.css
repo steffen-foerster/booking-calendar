@@ -1,0 +1,491 @@
+
+/***********************************************/
+/*  Allgemein
+/***********************************************/
+
+body {
+  font-family:Verdana;
+  font-size:10pt;
+  font-weight:normal;
+  color:black;
+  margin:30px;
+  background-color:#022585;
+}
+
+td.center {
+  text-align:center;
+}
+
+td.right {
+  text-align:right;
+}
+
+td.label {
+  color:#2F2F2F;
+  font-weight:bold;
+  font-size:10pt;
+  white-space:nowrap;
+  text-align:right;
+}
+
+td.label_left {
+  color:#2F2F2F;
+  font-weight:bold;
+  font-size:10pt;
+  white-space:nowrap;
+  text-align:left;
+}
+
+td.data {
+  color:#2F2F2F;
+  font-weight:normal;
+  font-size:10pt;
+}
+
+td.data_blue {
+  color:rgb(51,51,153);
+  font-weight:normal;
+  font-size:10pt;
+}
+
+td.input {
+  white-space:nowrap;
+}
+
+div.label {
+  color:#2F2F2F;
+  font-weight:bold;
+  font-size:10pt;
+  white-space:nowrap;
+}
+
+div.label_left {
+  color:#2F2F2F;
+  font-weight:bold;
+  font-size:10pt;
+  white-space:nowrap;
+}
+
+div.data {
+  color:#2F2F2F;
+  font-weight:normal;
+  font-size:10pt;
+}
+
+div.data_blue {
+  color:rgb(51,51,153);
+  font-weight:normal;
+  font-size:10pt;
+}
+
+div.error_summary {
+  padding-top:15px;
+  padding-bottom:15px;
+  color:red;
+  font-weight:normal;
+  font-size:8pt;
+  text-align:left
+}
+
+div.ui_info_msg {
+  color:blue;
+  font-weight:normal;
+  font-size:8pt;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:100%;
+}
+
+div.ui_warn_msg {
+  color:#AF5E00;
+  font-weight:normal;
+  font-size:8pt;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:100%;
+}
+
+div.ui_error_msg {
+  color:red;
+  font-weight:normal;
+  font-size:8pt;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:100%;
+}
+
+div.header_image {
+  border:1px solid #9F9F9F;
+	background-color:#FFFFFF;
+	text-align:center;
+	width:850px;
+}
+
+div.error_dialog {
+  border:2px solid red;
+  background-color:#FFFFFF;
+  text-align:left;
+	width:450px;
+  padding:25px;
+  margin-top:80px;
+}
+
+div.info_dialog {
+  border:2px solid #00096F;
+  background-color:#FFFFFF;
+  text-align:left;
+	width:450px;
+  padding:25px;
+  margin-top:80px;
+}
+
+div.please_wait 
+{
+  /*border:2px solid red;*/
+  background-color:#FFFFFF;
+  /*text-align:center;
+  padding:15px;*/
+  visibility:hidden;
+  position:absolute;
+  top:20px;
+  left:20px;
+  /*width:200px;*/
+}
+
+span.data {
+  color:#2F2F2F;
+  font-weight:500;
+  font-size:10pt;
+}
+
+span.data_blue {
+  color:rgb(51,51,153);
+  font-weight:normal;
+  font-size:10pt;
+}
+
+span.data_error {
+  color:red;
+  font-weight:500;
+  font-size:10pt;
+}
+
+span.error_msg {
+  color:red;
+  font-weight:bold;
+  font-size:8pt;
+}
+
+span.info_msg {
+  color:blue;
+  font-weight:normal;
+  font-size:10pt;
+}
+
+span.warn_msg {
+  color:#AF5E00;
+  font-weight:normal;
+  font-size:8pt;
+}
+
+span.label {
+  color:#2F2F2F;
+  font-weight:bold;
+  font-size:9pt;
+  white-space:nowrap;
+}
+
+h2 {
+  color:#2F2F2F;
+  font-weight:bold;
+  font-size:12pt;
+  padding:0px;
+  margin:0px;
+}
+
+input.button {
+  border:1px solid #888888;
+  background-color:#DDDDDD;
+}
+
+input.button_mouseover {
+  border:1px solid rgb(10,36,106);
+  background-color:rgb(188,190,196);
+}
+
+button.normal {
+  border:1px solid #888888;
+  background-color:#DDDDDD;
+}
+
+button.mouseover {
+  border:1px solid rgb(10,36,106);
+  background-color:rgb(188,190,196);
+}
+
+input.text {
+  border:1px solid #888888;
+  color:rgb(51,51,153);
+  font-weight:bold;
+}
+
+input.text_small {
+  border:1px solid #888888;
+  color:rgb(51,51,153);
+  font-weight:bold;
+  font-size:9pt;
+}
+
+select.normal {
+  border:1px solid #888888;
+  color:rgb(51,51,153);
+  font-weight:bold;
+}
+
+textarea {
+  border:1px solid #888888;
+  color:rgb(51,51,153);
+  font-weight:bold;
+}
+
+option.blue {
+  border:1px solid #888888;
+  color:rgb(51,51,153);
+  font-weight:bold;
+}
+
+legend {
+  color:blue;
+  font-weight:bold;
+}
+
+fieldset {
+  padding:12px;
+}
+
+img.top {
+  vertical-align:top;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+
+img.middle {
+  vertical-align:middle;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+
+a.linkbutton
+{
+  color:#001a97;
+  font-weight:bold;
+  text-decoration:none;
+}
+a.linkbutton:link
+{
+  color:#001a97;
+  font-weight:bold;
+  text-decoration:none;
+}
+a.linkbutton:visited
+{
+  color:#001a97;
+  font-weight:bold;
+  text-decoration:none;
+}
+a.linkbutton:hover
+{
+  color:#001a97;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+/************************************************/
+/*  Styles für Datenlisten
+/************************************************/
+
+table.datalist_table
+{
+  margin:0px;
+  border-top:1px solid #a7a7a7;
+  border-collapse:collapse;
+  empty-cells:show;
+}
+
+table.item_table
+{
+  border:0px;
+  empty-cells:show;
+  border-collapse:collapse;
+}
+
+td.header_style
+{
+  background-color:#e7e7e7;
+  padding:0px;
+  margin:0px;
+}
+
+td.item_style
+{
+  background-color: #ffffff;
+  padding:0px;
+  margin:0px;
+}
+
+td.alternating_item_style
+{
+  background-color: #efefef;
+  padding:0px;
+  margin:0px;
+}
+
+td.cell_style
+{
+  font-size: 8pt;
+  font-weight: normal;	 
+  border:1px solid #a7a7a7;
+  border-top:0px;
+  padding:5px;
+  cursor:default;
+  text-align:center;
+}
+
+td.edit_cell_style
+{
+  font-size: 8pt;
+  font-weight: normal;	 
+  border:1px solid #a7a7a7;
+  border-top:0px;
+  padding:5px;
+  cursor:default;
+  text-align:center;
+  background-color:#CEFFBF;
+}
+
+td.hcell_style
+{
+  font-size: 8pt;
+  font-weight: bold;	 
+  border:1px solid #a7a7a7;
+  border-top:0px;
+  padding:5px;
+  cursor:default;
+  text-align:center;
+  background-color:#e7e7e7;
+}
+
+/************************************************/
+/*  Styles für die Kalender zur Auswahl 
+/*  der An- und Abreise
+/************************************************/
+
+td.calendar_blocked_day
+{
+  background-color:#ECC67D;
+  color:#999999;
+}
+
+/************************************************/
+/*  Styles für den Belegungs-Kalender
+/************************************************/
+
+td.month {
+  background-color: #333399;
+  color:white;
+  font-size:10px;
+  font-family:Verdana;
+  font-weight:bold;
+  text-align:center;
+}
+td.weekday {
+  background-color: white;
+  color:black;
+  font-size:10px;
+  font-family:Verdana;
+  font-weight:500;
+  text-align:center;
+}
+td.sunday {
+  background-color: white;
+  color:red;
+  font-size:10px;
+  font-family:Verdana;
+  font-weight:500;
+  text-align:center;
+}
+td.saturday {
+  background-color: white;
+  color:red;
+  font-size:10px;
+  font-family:Verdana;
+  font-weight:500;
+  text-align:center;
+}
+td.dayname {
+  background-color: white;
+  color:blue;
+  font-size:10px;
+  font-family:Verdana;
+  font-weight:500;
+  text-align:center;
+}
+
+/************************************************/
+/*  Styles für Fenster
+/************************************************/
+
+div.window_header {
+    padding:2px;
+		border-bottom:1px solid #9F9F9F;
+		background-color:#FFE8BF;
+		text-align:center;
+		/*width:100%;*/
+		font-family:Verdana;
+		font-size:10pt;
+		font-weight:bold;
+		color:#00096F;
+}
+div.window_body {
+		border:1px solid #9F9F9F;
+		background-color:#FFFFFF;
+}
+div.window_text {
+		padding:10px;
+		font-family:Verdana;
+		font-size:10pt;
+		font-weight:normal;
+		color:#00096F;
+}
+
+/************************************************/
+/*  Styles Links
+/************************************************/
+
+a
+{
+  text-decoration:none;
+}
+a:link
+{
+  text-decoration:none;
+}
+a:visited
+{
+  text-decoration:none;
+}
+a:hover
+{
+  text-decoration:none;
+}
+a:active
+{
+  text-decoration:none;
+}
+
+
+
+
+

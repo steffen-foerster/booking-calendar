@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminHouse_lb.bedclothes" xml:space="preserve">
+    <value>Bettwäsche mietbar</value>
+  </data>
+  <data name="AdminBooking_msg.items.not.found" xml:space="preserve">
+    <value>Keine Buchungen gefunden!</value>
+  </data>
+  <data name="Booking_legend.booking.calendar" xml:space="preserve">
+    <value>Buchungskalender</value>
+  </data>
+  <data name="AdminHouse_lb.location" xml:space="preserve">
+    <value>Standort</value>
+  </data>
+  <data name="Validation_not.all.days.contained" xml:space="preserve">
+    <value>Es wurde nicht für alle Tage des Jahres {0:g} ein Preis festgelegt. Buchungen für diese Tage sind deshalb nicht möglich.</value>
+  </data>
+  <data name="TenantEntry_lb.street" xml:space="preserve">
+    <value>Straße</value>
+  </data>
+  <data name="AdminBooking_lb.head.name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="AdminBooking_lb.head.date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Confirmation_mail.tenant.salutation.mrs" xml:space="preserve">
+    <value>Sehr geehrte Frau {0},</value>
+  </data>
+  <data name="Admin_menu.logout" xml:space="preserve">
+    <value>Abmelden</value>
+  </data>
+  <data name="AdminBooking_lb.calculate.price" xml:space="preserve">
+    <value>Preise berechnen</value>
+  </data>
+  <data name="Validation_required.min.booking.days" xml:space="preserve">
+    <value>Bitte geben Sie die minimale Anzahl der Tage für einen Aufenthalt ein.</value>
+  </data>
+  <data name="TenantEntry_lb.title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Validation_required.least.arrival.departure.day" xml:space="preserve">
+    <value>Bitte wählen Sie mindestens einen Anreise-Tag und Abreise-Tag aus.</value>
+  </data>
+  <data name="AdminHouse_lb.min.days.total" xml:space="preserve">
+    <value>minimale Miettage total</value>
+  </data>
+  <data name="AdminHouse_lb.no.cleaning.cost" xml:space="preserve">
+    <value>Es wird keine Endreinigung in Rechnung gestellt, wenn mindestens eines der folgenden Kriterien erfüllt ist</value>
+  </data>
+  <data name="AdminBooking_lb.rent" xml:space="preserve">
+    <value>Mietpreis</value>
+  </data>
+  <data name="AdminBooking_lb.info" xml:space="preserve">
+    <value>Weitere Informationen</value>
+  </data>
+  <data name="AdminHouse_lb.title.cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="AdminHouse_lb.title.delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="AdminBooking_lb.head.period" xml:space="preserve">
+    <value>Zeitraum</value>
+  </data>
+  <data name="Validation_required.min.days.season" xml:space="preserve">
+    <value>Bitte geben Sie die Anzahl der Miettage in der Hochsaison ein, ab der keine Kosten für die Endreining in Rechnung gestellt werden.</value>
+  </data>
+  <data name="AdminBooking_lb.head.status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="BookingStatusType.0" xml:space="preserve">
+    <value>reserviert</value>
+  </data>
+  <data name="BookingStatusType.1" xml:space="preserve">
+    <value>gebucht</value>
+  </data>
+  <data name="Validation_invalid.end.date.greater" xml:space="preserve">
+    <value>Das Datum im Feld 'Datum bis' muss größer sein als im Feld 'Datum von'.</value>
+  </data>
+  <data name="AdminHouse_lb.choose.house" xml:space="preserve">
+    <value>Haus auswählen</value>
+  </data>
+  <data name="Validation_required.cleaning.cost" xml:space="preserve">
+    <value>Bitte geben Sie die Kosten der Endreinigung ein.</value>
+  </data>
+  <data name="Login_txt.login" xml:space="preserve">
+    <value>&lt;b&gt;Bitte melden Sie sich an&lt;/b&gt;
+&lt;p/&gt;
+Geben Sie bitte Ihre registrierte E-Mail-Adresse und Ihr Passwort ein.</value>
+  </data>
+  <data name="SalutationType.1" xml:space="preserve">
+    <value>Frau</value>
+  </data>
+  <data name="SalutationType.0" xml:space="preserve">
+    <value>Herr</value>
+  </data>
+  <data name="Error_txt.access.denied" xml:space="preserve">
+    <value>Für diese Seite ist eine Anmeldung erforderlich.</value>
+  </data>
+  <data name="AdminHouse_lb.head.departure.days" xml:space="preserve">
+    <value>Abreise-Tage</value>
+  </data>
+  <data name="Confirmation_mail.landlord.text" xml:space="preserve">
+    <value>Buchung: {2:g}
+Zeit: {3:d} - {4:d}
+Preis: {5} EUR
+Mieter: {6} {7} {8}
+
+Die Buchung erfolgte für Ihre Ferienwohnung in {0} (ID: {1}).
+</value>
+  </data>
+  <data name="Validation_required.location" xml:space="preserve">
+    <value>Bitte geben Sie Ihren Ort ein.</value>
+  </data>
+  <data name="Globals_bt.search" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="AdminBooking_second.paid.mail.subject" xml:space="preserve">
+    <value>Zahlungseingang: Restbetrag</value>
+  </data>
+  <data name="AdminBooking_btn.booking" xml:space="preserve">
+    <value>Buchung</value>
+  </data>
+  <data name="Booking_mail.missing.price.subject" xml:space="preserve">
+    <value>[Booking Notification] Kein Preis - {0}</value>
+  </data>
+  <data name="TenantEntry_lb.salutation" xml:space="preserve">
+    <value>Anrede</value>
+  </data>
+  <data name="AdminBooking_lb.count.children" xml:space="preserve">
+    <value>Anzahl Kinder</value>
+  </data>
+  <data name="AdminHouse_lb.head.arrival.days" xml:space="preserve">
+    <value>Anreise-Tage</value>
+  </data>
+  <data name="Validation_required.firstname.edit" xml:space="preserve">
+    <value>Bitte Vorname eingeben.</value>
+  </data>
+  <data name="DateTime_monday.short" xml:space="preserve">
+    <value>Mo</value>
+  </data>
+  <data name="Confirmation_bt.send" xml:space="preserve">
+    <value>Buchung</value>
+  </data>
+  <data name="Validation_invalid.zipcode" xml:space="preserve">
+    <value>Das Format der PLZ ist nicht korrekt [eine 5-stellige PLZ wird erwartet].</value>
+  </data>
+  <data name="Booking_msg.case.saison.days" xml:space="preserve">
+    <value>Keine Extra-Kosten für die Endreinigung, da {0} oder mehr Tage in der Hauptsaison liegen.</value>
+  </data>
+  <data name="Confirmation_legend.confirmation" xml:space="preserve">
+    <value>Bestätigung der Buchung</value>
+  </data>
+  <data name="Booking_msg.case.count.days" xml:space="preserve">
+    <value>Keine Extra-Kosten für die Endreinigung, da Sie das Haus mindestens {0} Tage mieten. </value>
+  </data>
+  <data name="Validation_invalid.interval.year" xml:space="preserve">
+    <value>Start- und End-Datum müssen sich im Jahr {0:g} befinden.</value>
+  </data>
+  <data name="AdminBooking_lb.head.action" xml:space="preserve">
+    <value>Aktion</value>
+  </data>
+  <data name="DateTime_wednesday.short" xml:space="preserve">
+    <value>Mi</value>
+  </data>
+  <data name="AdminHouse_lb.min.days.season" xml:space="preserve">
+    <value>minimale Miettage in der Hochsaison</value>
+  </data>
+  <data name="AdminBooking_lb.head.price" xml:space="preserve">
+    <value>Mietpreis&lt;br/&gt;Reinigung</value>
+  </data>
+  <data name="AdminBooking_lb.head.notes" xml:space="preserve">
+    <value>Bemerkung</value>
+  </data>
+  <data name="Confirmation_lb.notes" xml:space="preserve">
+    <value>Mitteilungen</value>
+  </data>
+  <data name="Admin_menu.booking" xml:space="preserve">
+    <value>Buchungen</value>
+  </data>
+  <data name="BookingService_error.insert.booking" xml:space="preserve">
+    <value>Buchung konnte nicht gespeichert werden!</value>
+  </data>
+  <data name="AdminBooking_first.paid.tooltip" xml:space="preserve">
+    <value>Zahlungseingang Anzahlung</value>
+  </data>
+  <data name="AdminBooking_btn.send.paid2.mail" xml:space="preserve">
+    <value>Mail für Restzahlung senden</value>
+  </data>
+  <data name="AdminBooking_legend.edit.bookings" xml:space="preserve">
+    <value>Buchungen bearbeiten</value>
+  </data>
+  <data name="Confirmation_txt.success" xml:space="preserve">
+    <value>Die Buchung wurde erfolgreich ausgeführt. Sie erhalten in Kürze die Buchungsunterlagen von uns!</value>
+  </data>
+  <data name="AdminBooking_btn.send.paid1.mail" xml:space="preserve">
+    <value>Mail für Anzahlung senden</value>
+  </data>
+  <data name="Globals_lb.mandatory.fields" xml:space="preserve">
+    <value>Pflichtfelder</value>
+  </data>
+  <data name="Globals_bt.cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Validation_invalid.cleaning.cost" xml:space="preserve">
+    <value>Kosten Endreinigung - nur ganzzahliger Eurobetrag zulässig.</value>
+  </data>
+  <data name="Confirmation_mail.tenant.subject" xml:space="preserve">
+    <value>Buchungsbestätigung - Ferienhaus in {0}</value>
+  </data>
+  <data name="AdminBooking_lb.title.export" xml:space="preserve">
+    <value>CSV-Datei</value>
+  </data>
+  <data name="Globals_bt.previous" xml:space="preserve">
+    <value>zurück</value>
+  </data>
+  <data name="TenantEntry_lb.location" xml:space="preserve">
+    <value>PLZ und Ort</value>
+  </data>
+  <data name="AdminBooking_btn.send.mail" xml:space="preserve">
+    <value>E-Mail senden</value>
+  </data>
+  <data name="Booking_lb.booked" xml:space="preserve">
+    <value>belegt</value>
+  </data>
+  <data name="Booking_legend.choose" xml:space="preserve">
+    <value>An- und Abreise auswählen</value>
+  </data>
+  <data name="BookingService_msg.no.price" xml:space="preserve">
+    <value>Für den gewählten Zeitraum wurden vom Vermieter noch nicht alle Preise hinterlegt.&lt;br/&gt;
+Bitte versuchen Sie es später noch einmal.</value>
+  </data>
+  <data name="AdminHouse_lb.head.min.booking.days" xml:space="preserve">
+    <value>Min. Aufenthalt</value>
+  </data>
+  <data name="BookingService_msg.min.booking.days" xml:space="preserve">
+    <value>In der gewählten Saison beträgt der minimale Aufenthalt {0} Tage.</value>
+  </data>
+  <data name="ErrorCalendar_txt.timeout" xml:space="preserve">
+    <value>Die Buchungsbearbeitung wurde nach {0} min wegen Inaktivität abgebrochen.</value>
+  </data>
+  <data name="TenantEntry_lb.fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Confirmation_bt.please.wait" xml:space="preserve">
+    <value>Bitte warten ...</value>
+  </data>
+  <data name="AdminHouse_lb.title.edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="AdminBooking_lb.period" xml:space="preserve">
+    <value>Anreise, Abreise</value>
+  </data>
+  <data name="ErrorCalendar_txt.cookie" xml:space="preserve">
+    <value>Bitte aktivieren Sie die Cookies in Ihrem Browser, da ansonsten keine Buchungen bearbeitet werden können.
+&lt;p/&gt;
+Sollten Sie diese Seite sehen, obwohl die Cookies aktiviert sind, so haben Sie wahrscheinlich ein Lesezeichen benutzt.
+Starten Sie die Bearbeitungsseite immer mit dem übersendeten Link.</value>
+  </data>
+  <data name="Confirmation_lb.booking.period" xml:space="preserve">
+    <value>Zeitraum</value>
+  </data>
+  <data name="AdminHouse_lb.head.peak.season" xml:space="preserve">
+    <value>Hoch- saison</value>
+  </data>
+  <data name="Validation_required.start.date" xml:space="preserve">
+    <value>Bitte geben Sie ein Startdatum für den Zeitraum ein.</value>
+  </data>
+  <data name="DateTime_saturday.short" xml:space="preserve">
+    <value>Sa</value>
+  </data>
+  <data name="AdminBooking_second.paid.tooltip" xml:space="preserve">
+    <value>Zahlungseingang Restbetrag</value>
+  </data>
+  <data name="Booking_txt.error.calculate.price" xml:space="preserve">
+    <value>Für den gewählten Zeitraum wurden vom Vermieter noch keine Preise hinterlegt.</value>
+  </data>
+  <data name="Validation_required.firstname" xml:space="preserve">
+    <value>Bitte geben Sie Ihren Vornamen ein.</value>
+  </data>
+  <data name="Welcome_lb.house.data" xml:space="preserve">
+    <value>Stammdaten Ferienhaus</value>
+  </data>
+  <data name="AdminBooking_lb.status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="AdminBooking_first.paid.mail.body" xml:space="preserve">
+    <value>%0D%0A%0D%0A
+Ihre Anzahlung haben wir heute dankend erhalten.%0D%0A
+%0D%0A
+Viele Grüße,%0D%0A
+xxx%0D%0A
+%0D%0A
+-------------------------------------------------------------------------------%0D%0A
+  xxx%0D%0A
+  xxx%0D%0A
+  xxx%0D%0A
+ %0D%0A
+  Telefon:     xxx%0D%0A
+  E-Mail:      xxx%0D%0A
+  Internet:    xxx%0D%0A
+-------------------------------------------------------------------------------</value>
+  </data>
+  <data name="Validation_required.password" xml:space="preserve">
+    <value>Bitte geben Sie Ihr Passwort ein.</value>
+  </data>
+  <data name="Validation_invalid.interval" xml:space="preserve">
+    <value>Es gibt eine Überschneidung mit einem anderen Zeitbereich, bitte prüfen Sie das Start- und das Ende-Datum.</value>
+  </data>
+  <data name="Validation_required.end.date" xml:space="preserve">
+    <value>Bitte geben Sie ein Enddatum für den Zeitraum ein.</value>
+  </data>
+  <data name="Validation_invalid.min.days" xml:space="preserve">
+    <value>Minimale Miettage - Format: ganzzahlige Zahl (0-99). </value>
+  </data>
+  <data name="Globals_msg.modifications.reseted" xml:space="preserve">
+    <value>Änderungen wurden verworfen !</value>
+  </data>
+  <data name="AdminHouse_legend.edit.data" xml:space="preserve">
+    <value>Stammdatenpflege</value>
+  </data>
+  <data name="Booking_lb.title.calendar" xml:space="preserve">
+    <value>Belegungskalender</value>
+  </data>
+  <data name="Validation_invalid.integer" xml:space="preserve">
+    <value>Es sind nur ganzzahlige Zahlen zulässig.</value>
+  </data>
+  <data name="AdminBooking_lb.head.address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="AdminHouse_lb.min.booking.days" xml:space="preserve">
+    <value>{0} Tag(e)</value>
+  </data>
+  <data name="Validation_required.interval.price" xml:space="preserve">
+    <value>Bitte geben Sie den Mietpreis ein.</value>
+  </data>
+  <data name="AdminBooking_msg.items.found" xml:space="preserve">
+    <value>{0:g} Buchungen gefunden.</value>
+  </data>
+  <data name="BookingStatusType.-1" xml:space="preserve">
+    <value>storniert</value>
+  </data>
+  <data name="Admin_menu.house.data" xml:space="preserve">
+    <value>Stammdaten</value>
+  </data>
+  <data name="ErrorCalendar_txt.server" xml:space="preserve">
+    <value>Anwendungsfehler. Der Administrator wurde bereits informiert.</value>
+  </data>
+  <data name="Booking_legend.tenant.data" xml:space="preserve">
+    <value>Persönliche Daten</value>
+  </data>
+  <data name="Validation_required.telephone" xml:space="preserve">
+    <value>Bitte geben Sie Ihre Telefonnummer für eventuelle Rückfragen ein.</value>
+  </data>
+  <data name="Globals_lb.from" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="Confirmation_txt.error.booking" xml:space="preserve">
+    <value>Die Buchung konnte nicht ausgeführt werden. Versuchen Sie es bitte später noch einmal.</value>
+  </data>
+  <data name="Login_bt.login" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="Globals_msg.errors.summary" xml:space="preserve">
+    <value>Ihre Eingaben sind nicht vollständig und/oder nicht korrekt.</value>
+  </data>
+  <data name="Confirmation_lb.bedclothes" xml:space="preserve">
+    <value>Bettwäsche wird gewünscht</value>
+  </data>
+  <data name="AdminBooking_lb.calendar" xml:space="preserve">
+    <value>Aktueller Buchungskalender</value>
+  </data>
+  <data name="AdminHouse_lb.head.date.to" xml:space="preserve">
+    <value>Datum bis</value>
+  </data>
+  <data name="Globals_lb.to" xml:space="preserve">
+    <value>bis</value>
+  </data>
+  <data name="AdminBooking_lb.title.notes" xml:space="preserve">
+    <value>Bemerkung</value>
+  </data>
+  <data name="DateTime_tuesday.short" xml:space="preserve">
+    <value>Di</value>
+  </data>
+  <data name="DateTime_sunday.short" xml:space="preserve">
+    <value>So</value>
+  </data>
+  <data name="Error_txt.server" xml:space="preserve">
+    <value>Zur Zeit kann keine Buchungssanfrage gestellt werden. Bitte versuchen Sie es später noch einmal.</value>
+  </data>
+  <data name="AdminBooking_lb.notes" xml:space="preserve">
+    <value>Bemerkung</value>
+  </data>
+  <data name="Globals_boolean.False" xml:space="preserve">
+    <value>nein</value>
+  </data>
+  <data name="Error_txt.timeout" xml:space="preserve">
+    <value>Die Buchungssanfrage wurde nach {0} min wegen Inaktivität abgebrochen.
+&lt;p/&gt;
+Bitte starten Sie die Buchungssanfrage erneut.</value>
+  </data>
+  <data name="AdminBooking_first.paid.mail.subject" xml:space="preserve">
+    <value>Zahlungseingang: Anzahlung</value>
+  </data>
+  <data name="BookingService_msg.arrival.blocking.period" xml:space="preserve">
+    <value>Online-Buchungen können nur bis {0} Tage vor der gewünschten Anreise durchgeführt werden.&lt;br/&gt;
+Bitte nehmen Sie direkt mit uns per E-Mail oder Telefon Kontakt auf.</value>
+  </data>
+  <data name="AdminBooking_lb.cleaningCost" xml:space="preserve">
+    <value>Endreinigung</value>
+  </data>
+  <data name="Validation_required.street" xml:space="preserve">
+    <value>Bitte geben Sie Ihre Straße ein.</value>
+  </data>
+  <data name="Confirmation_txt.success.error.sending.email" xml:space="preserve">
+    <value>Die Buchung wurde ausgeführt. Eine Bestätigung per E-Mail konnte jedoch nicht an Sie versendet werden. Sie erhalten in Kürze die Buchungsunterlagen per Post.</value>
+  </data>
+  <data name="Booking_lb.total.cost" xml:space="preserve">
+    <value>Gesamtpreis</value>
+  </data>
+  <data name="Booking_lb.cleaning" xml:space="preserve">
+    <value>Endreinigung</value>
+  </data>
+  <data name="Confirmation_mail.tenant.salutation.mr" xml:space="preserve">
+    <value>Sehr geehrter Herr {0},</value>
+  </data>
+  <data name="TenantEntry_lb.name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TenantEntry_lb.mail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Validation_min.booking.days" xml:space="preserve">
+    <value>Der minimale Aufenthalt muss größer 0 sein.</value>
+  </data>
+  <data name="AdminBooking_legend.search" xml:space="preserve">
+    <value>Buchungen suchen</value>
+  </data>
+  <data name="Confirmation_txt.confirm" xml:space="preserve">
+    <value>Hier können Sie Ihre Eingaben noch einmal vor der Bestätigung überprüfen und &lt;br/&gt;ggf. für uns eine Mitteilung verfassen.</value>
+  </data>
+  <data name="Login_lb.password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="AdminBooking_standard.mail.salutation" xml:space="preserve">
+    <value>
+Hallo {0} {1} {2},</value>
+  </data>
+  <data name="TenantEntry_lb.count.children" xml:space="preserve">
+    <value>Anzahl Kinder</value>
+  </data>
+  <data name="Welcome_txt.block.1" xml:space="preserve">
+    <value>Gefällt Ihnen unser Haus?
+&lt;p/&gt;
+Auf den folgenden Seiten können Sie die Belegung prüfen und eine Reservierung vornehmen.
+&lt;/p&gt;
+Nach erfolgter Reservierung erhalten Sie sofort eine Bestätigung per &lt;nobr&gt;E-Mail&lt;/nobr&gt; und umgehend die Unterlagen per Post zugesandt.</value>
+  </data>
+  <data name="Globals_bt.reset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+  </data>
+  <data name="Booking_lb.count.days" xml:space="preserve">
+    <value>Anzahl der Tage</value>
+  </data>
+  <data name="TenantEntry_lb.firstname" xml:space="preserve">
+    <value>Vorname</value>
+  </data>
+  <data name="Booking_lb.rent" xml:space="preserve">
+    <value>Mietpreis</value>
+  </data>
+  <data name="Booking_mail.missing.price.text" xml:space="preserve">
+    <value>Für Ihr Ferienhaus in {1} (ID: {0}) sollte eine Buchung durchgeführt werden, es wurde jedoch für folgenden Tag noch kein Preis festgelegt: {2}. </value>
+  </data>
+  <data name="Globals_bt.save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Globals_bt.next" xml:space="preserve">
+    <value>weiter</value>
+  </data>
+  <data name="Globals_bt.home" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="AdminHouse_lb.head.date.from" xml:space="preserve">
+    <value>Datum von</value>
+  </data>
+  <data name="BookingService_msg.period.occupied" xml:space="preserve">
+    <value>Ein oder mehrere Tage im gewünschten Zeitraum sind schon belegt!</value>
+  </data>
+  <data name="Booking_msg.number.1" xml:space="preserve">
+    <value>Wählen Sie den Anreise-Monat aus</value>
+  </data>
+  <data name="Booking_msg.number.3" xml:space="preserve">
+    <value>Gehen Sie mit "weiter" zur Eingabe der Adressdaten.</value>
+  </data>
+  <data name="Booking_msg.number.2" xml:space="preserve">
+    <value>Wählen Sie mit Hilfe der Kalender den Anreise- und Abreisetag aus.</value>
+  </data>
+  <data name="Validation_invalid.start.date.less" xml:space="preserve">
+    <value>Das Datum im Feld 'Datum von' muss kleiner sein als im Feld 'Datum bis'.</value>
+  </data>
+  <data name="Error_txt.file.not.found" xml:space="preserve">
+    <value>Die angeforderte Seite konnte nicht gefunden werden.
+&lt;p/&gt;
+Haben Sie die Seite über einen Link aufgerufen, so würden wir uns über eine kurze Information freuen.</value>
+  </data>
+  <data name="Booking_txt.booking" xml:space="preserve">
+    <value>Der Buchungskalender am Ende der Seite zeigt Ihnen die aktuelle Belegung unseres Ferienhauses an. Nach Auswahl der An- und Abreise wird der entsprechende Mietpreis berechnet und Sie gelangen über 'weiter' zur Eingabe Ihrer Adressdaten.</value>
+  </data>
+  <data name="Confirmation_lb.tenant.address" xml:space="preserve">
+    <value>Ihre Adresse</value>
+  </data>
+  <data name="BookingService_msg.departure.before.arrival" xml:space="preserve">
+    <value>Abreisetag kann nicht vor Anreisetag liegen oder gleich dem Anreisetag sein!</value>
+  </data>
+  <data name="Error_txt.cookie" xml:space="preserve">
+    <value>Bitte aktivieren Sie die Cookies in Ihrem Browser, da die Buchung ansonsten nicht durchgeführt werden kann.
+&lt;p/&gt;
+Sollten Sie diese Seite sehen, obwohl die Cookies aktiviert sind, so haben Sie wahrscheinlich ein Lesezeichen benutzt oder die Navigation Ihres Browsers verwendet.
+Starten Sie die Buchung bitte immer direkt von unserer Homepage.</value>
+  </data>
+  <data name="Validation_required.name" xml:space="preserve">
+    <value>Bitte geben Sie Ihren Namen ein.</value>
+  </data>
+  <data name="TenantEntry_txt.entry" xml:space="preserve">
+    <value>Bitte geben Sie hier Ihre Adresse, Telefonnummer und E-Mail-Adresse ein.</value>
+  </data>
+  <data name="Validation_required.departure" xml:space="preserve">
+    <value>Bitte Abreisetag eingeben.</value>
+  </data>
+  <data name="TenantEntry_lb.count.adult" xml:space="preserve">
+    <value>Anzahl Erwachsener</value>
+  </data>
+  <data name="Validation_invalid.date" xml:space="preserve">
+    <value>Das Format des Datums ist nicht gültig [Beispiel 01.08.2002].</value>
+  </data>
+  <data name="Validation_invalid.rent" xml:space="preserve">
+    <value>Mietpreis - nur ganzzahliger Eurobetrag.</value>
+  </data>
+  <data name="AdminBooking_lb.select.period" xml:space="preserve">
+    <value>Mietzeitraum</value>
+  </data>
+  <data name="AdminBooking_paid.mail.salutation" xml:space="preserve">
+    <value>Guten Tag {0} {1} {2},</value>
+  </data>
+  <data name="Validation_required.login.email" xml:space="preserve">
+    <value>Bitte geben Sie Ihre registrierte E-Mail-Adresse ein.</value>
+  </data>
+  <data name="DateTime_friday.short" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="AdminBooking_btn.email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="AdminBooking_lb.landlord.name" xml:space="preserve">
+    <value>Angemeldet als:</value>
+  </data>
+  <data name="AdminHouse_lb.choose.year" xml:space="preserve">
+    <value>Jahr auswählen</value>
+  </data>
+  <data name="AdminBooking_lb.count.adults" xml:space="preserve">
+    <value>Anzahl Erwachsene</value>
+  </data>
+  <data name="TenantEntry_legend.tenant.data" xml:space="preserve">
+    <value>Persönliche Daten</value>
+  </data>
+  <data name="Validation_min.interval.price" xml:space="preserve">
+    <value>Der Mietpreis muss größer 0 EUR sein.</value>
+  </data>
+  <data name="Error_txt.houseId" xml:space="preserve">
+    <value>Initialisierungsfehler: ID der Ferienwohnung / des Ferienhauses ist unbekannt!</value>
+  </data>
+  <data name="Validation_required.email" xml:space="preserve">
+    <value>Bitte geben Sie Ihre E-Mail-Adresse ein. Diese benötigen wir zur Zusendung der Reservierungsbestätigung.</value>
+  </data>
+  <data name="Validation_required.arrival" xml:space="preserve">
+    <value>Bitte Anreisetag eingeben.</value>
+  </data>
+  <data name="AdminBooking_lb.add.booking" xml:space="preserve">
+    <value>Buchung hinzufügen</value>
+  </data>
+  <data name="Booking_msg.entry.departure" xml:space="preserve">
+    <value>&lt;span style="color:red;font-weight:normal;"&gt;Bitte auswählen !&lt;/span&gt;</value>
+  </data>
+  <data name="Confirmation_mail.landlord.subject" xml:space="preserve">
+    <value>[Booking Notification] Buchung - vom {0:d}</value>
+  </data>
+  <data name="Login_err.unknown.user" xml:space="preserve">
+    <value>E-Mail oder Passwort sind nicht korrekt.</value>
+  </data>
+  <data name="AdminBooking_btn.tenant" xml:space="preserve">
+    <value>Mieter</value>
+  </data>
+  <data name="Globals_lb.please.wait" xml:space="preserve">
+    <value>Bitte warten ...</value>
+  </data>
+  <data name="Validation_required.house.location" xml:space="preserve">
+    <value>Bitte geben Sie den Standort des Ferienhauses ein.</value>
+  </data>
+  <data name="AdminBooking_msg.booking.created" xml:space="preserve">
+    <value>Buchung wurde erstellt.</value>
+  </data>
+  <data name="Welcome_lb.admin.bookings" xml:space="preserve">
+    <value>Buchungen</value>
+  </data>
+  <data name="AdminBooking_msg.no.mail.address" xml:space="preserve">
+    <value>Keine E-Mail Adresse gespeichert!</value>
+  </data>
+  <data name="Welcome_lb.administration.landlord" xml:space="preserve">
+    <value>Administration für den Vermieter</value>
+  </data>
+  <data name="AdminBooking_second.paid.mail.body" xml:space="preserve">
+    <value>%0D%0A
+Ihren Restbetrag haben wir heute dankend erhalten.%0D%0A
+Wir wünschen Ihnen einen schönen Urlaub!%0D%0A
+%0D%0A
+Viele Grüße,%0D%0A
+xxx%0D%0A
+%0D%0A
+-------------------------------------------------------------------------------%0D%0A
+  xxx%0D%0A
+  xxx%0D%0A
+  xxx%0D%0A
+ %0D%0A
+  Telefon:     xxx%0D%0A
+  E-Mail:      xxx%0D%0A
+  Internet:    xxx%0D%0A
+-------------------------------------------------------------------------------</value>
+  </data>
+  <data name="AdminHouse_lb.head.price" xml:space="preserve">
+    <value>Preis pro Nacht</value>
+  </data>
+  <data name="Confirmation_mail.tenant.text" xml:space="preserve">
+    <value>
+
+vielen Dank für Ihre Buchung. Der Mietvertrag wird Ihnen umgehend zugesendet.
+
+Buchungszeitraum: {0:d} - {1:d}
+Gesamtpreis: {2} EUR
+
+
+Mit freundlichen Grüßen,
+
+xxx
+
+--------------------------------------------------------------------------
+xxx
+xxx
+xxx
+ 
+Telefon:     xxx
+E-Mail:      xxx
+Internet:    xxx
+--------------------------------------------------------------------------
+
+**** Diese E-Mail wurde automatisch erstellt. ****</value>
+  </data>
+  <data name="Login_lb.email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="BookingDays.all.days" xml:space="preserve">
+    <value>alle Tage</value>
+  </data>
+  <data name="Welcome_lb.booking" xml:space="preserve">
+    <value>Buchung</value>
+  </data>
+  <data name="Booking_msg.entry.arrival" xml:space="preserve">
+    <value>&lt;span style="color:red;font-weight:normal;"&gt;Bitte auswählen !&lt;/span&gt;</value>
+  </data>
+  <data name="AdminBooking_lb.bedclothes" xml:space="preserve">
+    <value>Bettwäsche wird gewünscht</value>
+  </data>
+  <data name="Globals_boolean.True" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="AdminHouse_lb.add.price" xml:space="preserve">
+    <value>Preis hinzufügen</value>
+  </data>
+  <data name="Validation_invalid.email" xml:space="preserve">
+    <value>Das Format der E-Mail-Adresse ist nicht korrekt [Beispiel: info@ostsee.de].</value>
+  </data>
+  <data name="TenantEntry_lb.telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="AdminBooking_lb.choose.house" xml:space="preserve">
+    <value>Haus auswählen</value>
+  </data>
+  <data name="Booking_lb.arrival" xml:space="preserve">
+    <value>Anreise</value>
+  </data>
+  <data name="Globals_msg.modifications.saved" xml:space="preserve">
+    <value>Änderungen wurden erfolgreich gespeichert.</value>
+  </data>
+  <data name="AdminHouse_legend.edit.prices" xml:space="preserve">
+    <value>Preispflege</value>
+  </data>
+  <data name="Validation_required.min.days.total" xml:space="preserve">
+    <value>Bitte geben Sie die Anzahl der Miettage ein, ab der keine Kosten für die Endreining in Rechnung gestellt werden.</value>
+  </data>
+  <data name="BookingService_msg.arrival.departure.days" xml:space="preserve">
+    <value>Sie haben für die gewählte Saison die Wahl zwischen folgenden Anreise- und Abreise-Tagen:&lt;br/&gt; 
+Anreise ist möglich am: {0}&lt;br/&gt;
+Abreise ist möglich am: {1}</value>
+  </data>
+  <data name="AdminHouse_lb.title.update" xml:space="preserve">
+    <value>Übernehmen</value>
+  </data>
+  <data name="Globals_txt.cookies" xml:space="preserve">
+    <value>Bitte aktivieren Sie ggf. in Ihrem Browser die Annahme von Cookies!</value>
+  </data>
+  <data name="AdminBooking_lb.head.contact" xml:space="preserve">
+    <value>Kontaktdaten</value>
+  </data>
+  <data name="Validation_required.name.edit" xml:space="preserve">
+    <value>Bitte Name eingeben.</value>
+  </data>
+  <data name="AdminHouse_lb.head.action" xml:space="preserve">
+    <value>Aktion</value>
+  </data>
+  <data name="Validation_required.zipcode" xml:space="preserve">
+    <value>Bitte geben Sie Ihre PLZ ein.</value>
+  </data>
+  <data name="Booking_lb.departure" xml:space="preserve">
+    <value>Abreise</value>
+  </data>
+  <data name="DateTime_thursday.short" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="AdminHouse_lb.cleaning.cost" xml:space="preserve">
+    <value>Kosten für Endreinigung</value>
+  </data>
+</root>

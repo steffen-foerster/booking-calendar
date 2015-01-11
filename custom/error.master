@@ -1,0 +1,15 @@
+<%@ Master Language="C#" MasterPageFile="~/custom/custom.master" %>
+<%@ Register TagPrefix="booking" Namespace="de.fiok.controls" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="main" runat="Server">
+  <div class="error_dialog" style="width:400px;">
+    <asp:ContentPlaceHolder ID="error_msg" runat="server">
+    </asp:ContentPlaceHolder>
+    <p />
+    <p />
+    <asp:LinkButton runat="server" ID="btnHomePage" CssClass="linkbutton" 
+                    CausesValidation="false" PostBackUrl="~/aspx/exitBooking.aspx">
+      <img src="../images/nav_home.gif" class="middle" alt="home"/>
+      <booking:message key="Globals_bt.home" runat="server"/></asp:LinkButton>
+  </div>
+</asp:Content>

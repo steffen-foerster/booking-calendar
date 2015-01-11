@@ -1,0 +1,26 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:Calendar runat="server" BorderWidth="1px" BorderColor="#888888" Font-Names="Verdana" Font-Size="8pt" Height="137px" CellSpacing="1" ForeColor="Black" Width="189px" BackColor="White" NextPrevFormat="CustomText" BorderStyle="Solid" NextMonthText="&gt;" PrevMonthText="&lt;">
+   <%--<TodayDayStyle font-bold="True" forecolor="Black" backcolor="White"></TodayDayStyle>--%>
+   <DayStyle backcolor="#CCCCCC" forecolor="#333333"></DayStyle>
+   <NextPrevStyle font-size="8pt" font-bold="True" forecolor="White"></NextPrevStyle>
+   <DayHeaderStyle font-size="8pt" font-bold="True" height="8pt" forecolor="#333333"></DayHeaderStyle>
+   <SelectedDayStyle forecolor="White" backcolor="#333399" font-bold="True"></SelectedDayStyle>
+   <TitleStyle font-size="9pt" font-bold="True" height="10pt" forecolor="White" backcolor="#333399"></TitleStyle>
+   <%--<WeekendDayStyle backcolor="#ECC67D"></WeekendDayStyle>--%>
+   <OtherMonthDayStyle forecolor="#999999"></OtherMonthDayStyle>
+ </asp:Calendar>
