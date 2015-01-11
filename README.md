@@ -3,4 +3,4 @@ Diesen Buchungskalender mit Buchungsfunktion habe ich seit 10 Jahren auf meiner 
 
 Technologien: ASP.NET 4.0 mit ACCESS-Datenbank
 
-Die Funktionen zeigen die Bilder im Verzeichnis "screenshots". 
+Die Bilder im Verzeichnis "screenshots" zeigen einige der Funktionen der Anwendung.
